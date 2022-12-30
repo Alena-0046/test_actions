@@ -11,7 +11,7 @@
 # 6. Develop messenger pages (from step 2)
 # 7. Create clear structure, project must consist of modules
 # 8. Configure Express
-# 9. Use port 3000, use 'npm run start'
+# 9. -Use port 3000, use 'npm run start'
 # 10. Add NodeJS version (>=12) to .nvmrc or package.json
 # 11. Configure Netlify: use cloned github repository, add Netlify link to README.md, configure autodeploy from 'deploy' branch
 # 12. Update README.md, add description of project
@@ -45,8 +45,8 @@ jobs:
       run: set -eu && git clone https://github.com/Yandex-Practicum/tests-second-floor.git
     - name: Check dist and node_modules in .gitignore
       run: bash tests-second-floor/sprint_1/check_gitignore.sh
-    #- name: (Roadmap 9) Check npm run start existence
-    #  run: bash tests-second-floor/sprint_1/check_start.sh
+    - name: (Roadmap 9) Check npm run start existence
+      run: bash tests-second-floor/sprint_1/check_start.sh
     - name: (Roadmap 3) Check Parcel in start script
       run: bash tests-second-floor/sprint_1/check_parcel.sh
     #- name: (Roadmap 9) Check PORT 3000
