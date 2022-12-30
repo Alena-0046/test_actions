@@ -19,7 +19,7 @@
 # 14*. Create Pull Request 'Sprint 1' from sprint_1 to main
 # 15*. In main branch, add comment to README.md about opened PR from step 14
 
-name: sprint_1
+name: sprint1
 
 on:
   push:
