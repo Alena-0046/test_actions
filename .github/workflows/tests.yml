@@ -1,3 +1,6 @@
+#-------------------------------------
+# Learn GitHub Actions
+#-------------------------------------
 name: learn-github-actions
 run-name: ${{github.actor}} is learning GitHub Actions
 
@@ -8,3 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Now repository is public - first check passed"
+
+on:
+  push:
+      branches:
+        sprint_1
+
+jobs:
+  new-commit-in-sprint-1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Push in sprint_1"
