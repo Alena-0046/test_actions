@@ -1,7 +1,7 @@
 #-------------------------------------
 # Learn GitHub Actions
 #-------------------------------------
-name: learn-github-actions
+name: repository-is-public
 run-name: ${{github.actor}} is learning GitHub Actions
 
 on: [public]
