@@ -11,7 +11,7 @@
 # 6. Develop messenger pages (from step 2)
 # 7. Create clear structure, project must consist of modules
 # 8. Configure Express
-# 9. Use port 3000, use 'npm run start'
+# 9. -Use port 3000, use 'npm run start'
 # 10. Add NodeJS version (>=12) to .nvmrc or package.json
 # 11. Configure Netlify: use cloned github repository, add Netlify link to README.md, configure autodeploy from 'deploy' branch
 # 12. Update README.md, add description of project
